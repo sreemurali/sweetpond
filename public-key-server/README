@@ -1,0 +1,8 @@
+Implementing a remote public key server
+---------------------------------------
+Remote public key server hails to achieve generation of public keys with the help
+of encrypted private keys.
+
+Interfaces/APIs
+--------------
+1. Initialize and start public key gen engine.
