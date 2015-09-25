@@ -11,3 +11,12 @@ int main(char* argv[], int c) {
      }
      return 0;
 }
+
+int generate_key(int seed) {
+
+    if (seed < 0) {
+        printf("Could not get a valid seed to generate key.\n");
+        return -1;
+    }
+    return 1;
+}
