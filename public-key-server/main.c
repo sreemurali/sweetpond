@@ -12,6 +12,7 @@ int main(char* argv[], int c) {
      return 0;
 }
 
+/* Generates key using the seed. */
 int generate_key(int seed) {
 
     if (seed < 0) {
